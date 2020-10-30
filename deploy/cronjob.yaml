@@ -20,7 +20,7 @@ spec:
           restartPolicy: OnFailure
           containers:
           - name: cleaner
-            image: "hjacobs/kube-job-cleaner:0.7"
+            image: "registry-vpc.cn-hangzhou.aliyuncs.com/pipehappy/kube-job-cleaner:hjacobs-0.8-2-g5f9c3ab"
             resources:
               limits:
                 cpu: 200m
