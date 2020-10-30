@@ -7,7 +7,7 @@ metadata:
     application: kube-job-cleaner
     version: "0.1"
 spec:
-  schedule: "17 * * * *"
+  schedule: "50 * * * *"
   jobTemplate:
     spec:
       template:
